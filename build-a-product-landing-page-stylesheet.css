@@ -1,0 +1,114 @@
+body{
+  background-color:#fff;
+}
+
+#header-img{
+  width: 350px;
+}
+#header{
+  border:0;
+  padding-top:18px;
+  position: fixed;
+  background-color: grey;
+  width: 100%;
+}
+
+#nav-bar{
+font-size: 20px;
+position: fixed;
+background-color: grey;
+width: 100%;
+text-align: center;
+}
+
+.nav-link{
+  color:black;
+  padding-right:60px;
+  text-decoration:none;
+}
+
+.nav-link:hover{
+  color:blue;
+}
+
+.title{
+  margin-top:200px;
+  color:black;
+  text-align:center;
+}
+
+#email{
+  width:300px;
+  padding:7px;
+}
+
+#submit{
+  background-color:yellow;
+  height: 25px;
+  border-radius: 10%;
+}
+
+#submit:hover{
+  background-color:#008fb3;
+}
+
+
+.text{
+  text-align: left;
+  width: 700px;
+  margin: auto;
+  padding: 40px 0px 40px 0px;
+}
+
+h1{
+  font-size: 25px;
+}
+
+p{
+  font-size:18px;
+  padding-bottom: 10px;
+}
+
+#video{
+  margin: auto;
+  display: block;
+  padding-bottom: 40px;
+}
+
+div.flex-container{
+  display: flex;
+  justify-content: center;
+  text-align:center;
+}
+
+div.products{
+  border:solid;
+  margin: 20px;
+  padding: 20px;
+}
+
+.product-title{
+  background-color: #d1cfcf;
+  padding: 0.3px;
+}
+
+#product-submit{
+  width: 80px;
+  background-color: yellow;
+  padding: 5px;
+  font-size: 15px;
+  color: black;
+}
+
+@media screen and (max-width:600px){
+  .flex-container{
+    flex-direction:column;
+  }
+  .nav-link{
+    width:100%;
+    margin:auto;
+  }
+  .text{
+    width:400px;
+  }
+}
